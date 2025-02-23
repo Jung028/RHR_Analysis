@@ -1,4 +1,4 @@
-# HRH Performance Analysis & Prediction for Cycling 
+# HRH Performance Analysis & Prediction (Cycling)
 
 ## Objectives  
 - Analyze trends in **Resting Heart Rate (RHR)**, **power output**, **cadence**, and **speed** over time.  
