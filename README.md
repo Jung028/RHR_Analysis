@@ -35,7 +35,8 @@
 ## Clone the Repository
 ```bash
 git clone https://github.com/your-username/cycling-performance-analysis.git
-cd cycling-performance-analysis
+cd HRH_Analysis
+jupyter lab HRH_Analysis.ipynb
 ```
 
 # Run the Analysis 
