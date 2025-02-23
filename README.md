@@ -1,4 +1,4 @@
-# HRH Performance Analysis & Prediction (Cycling)
+# RHR Performance Analysis & Prediction (Cycling)
 
 ## Objectives  
 - Analyze trends in **Resting Heart Rate (RHR)**, **power output**, **cadence**, and **speed** over time.  
@@ -27,8 +27,8 @@
 ## Clone the Repository
 ```bash
 git clone https://github.com/your-username/cycling-performance-analysis.git
-cd HRH_Analysis
-jupyter lab HRH_Analysis.ipynb
+cd RHR_Analysis
+jupyter lab RHR_Analysis.ipynb
 ```
 
 # Run the Analysis 
