@@ -23,14 +23,6 @@
 
 ---
 
-## Project Structure  
-```bash
-├── data/                   # CSV files for training data
-├── notebooks/              # Jupyter Notebook files for analysis
-├── src/                    # Python scripts for data processing & modeling
-├── README.md               # Project documentation
-```
-
 ### Installation & Usage
 ## Clone the Repository
 ```bash
