@@ -41,6 +41,9 @@ jupyter lab RHR_Analysis.ipynb
 ```
 
 # Run the Analysis 
+```bash
+python cycling_dashboard.py
+```
 
 ## License 
 This project is licensed under the MIT License.
