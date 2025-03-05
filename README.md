@@ -8,7 +8,7 @@
 
 ---
 
-![alt text](image.png)
+![alt text](Cycling_Training_Dashboard.png)
 
 ---
 
@@ -21,9 +21,14 @@
 - **Cadence vs. Speed Relationship** visualization.  
 - **Peak Power Output Trends** tracking.  
 
+
 ### Predictive Analysis  
 - Implements **Linear Regression** to predict future **Avg BPM (Resting Heart Rate)**.  
 - Assesses whether the **RHR trend is improving or declining**.  
+
+---
+
+![alt text](Predicted_RHR.png)
 
 ---
 
