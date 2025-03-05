@@ -5,6 +5,9 @@
 - Identify correlations between **heart rate, power efficiency, and speed** using data visualizations.  
 - Predict future **RHR trends** using **Linear Regression** to assess training effectiveness.  
 - Provide insights into cardiovascular performance and training adaptation for optimization.  
+
+---
+
 ![alt text](image.png)
 
 ---
@@ -37,7 +40,7 @@ jupyter lab RHR_Analysis.ipynb
 ## License 
 This project is licensed under the MIT License.
 
-Future : 
+## Future : 
 1. Create Dashboard 
 2. Create connection auto update. 
 3. Predict more useful : predict overtrainng, tell if next training should be hard/easy, 
