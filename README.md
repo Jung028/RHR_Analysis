@@ -5,13 +5,14 @@
 - Identify correlations between **heart rate, power efficiency, and speed** using data visualizations.  
 - Predict future **RHR trends** using **Linear Regression** to assess training effectiveness.  
 - Provide insights into cardiovascular performance and training adaptation for optimization.  
-![image](https://github.com/user-attachments/assets/ab86b477-cf07-478b-a89e-c2cfc32bcdb2)
+![alt text](image.png)
 
 ---
 
 ## Features  
 
 ### Data Visualization  
+
 - **Resting Heart Rate (RHR) Trends** over time.  
 - **Heart Rate vs. Power Output** analysis.  
 - **Cadence vs. Speed Relationship** visualization.  
@@ -26,8 +27,8 @@
 ### Installation & Usage
 ## Clone the Repository
 ```bash
-git clone https://github.com/your-username/cycling-performance-analysis.git
-cd RHR_Analysis
+git clone https://github.com/Jung028/RHR_Analysis.git
+pip install dash pandas plotly
 jupyter lab RHR_Analysis.ipynb
 ```
 
@@ -36,6 +37,10 @@ jupyter lab RHR_Analysis.ipynb
 ## License 
 This project is licensed under the MIT License.
 
-
+Future : 
+1. Create Dashboard 
+2. Create connection auto update. 
+3. Predict more useful : predict overtrainng, tell if next training should be hard/easy, 
+4. Analysis for running and swimming as well
 
 
