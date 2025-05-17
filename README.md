@@ -1,57 +1,61 @@
-# RHR Performance Analysis & Prediction 
+# RHR Performance Analysis & Prediction
 
-## Objectives  
-- Analyze trends in **Resting Heart Rate (RHR)**, **power output**, **cadence**, and **speed** over time.  
-- Identify correlations between **heart rate, power efficiency, and speed** using data visualizations.  
-- Predict future **RHR trends** using **Linear Regression** to assess training effectiveness.  
-- Provide insights into cardiovascular performance and training adaptation for optimization.  
+## Overview
+A comprehensive web-based dashboard for analyzing cycling performance metrics, including heart rate, power output, speed, and efficiency. Built with React and Material-UI, it provides interactive visualizations and performance insights.
 
 ---
 
-![alt text](Cycling_Training_Dashboard.png)
+## Features
+
+### Key Performance Metrics
+- **Average Heart Rate**: Track your heart rate trends over time
+- **Normalized Power**: Monitor your power output consistency
+- **Training Stress Score**: Assess workout intensity
+- **VAM (Vertical Speed)**: Analyze climbing performance
+
+### Performance Analysis
+- **Heart Rate vs Speed Over Time**: Visualize the relationship between heart rate and speed
+- **Power-to-Speed Efficiency**: Analyze power usage efficiency
+- **Zone Distribution**: Track time spent in different heart rate zones
+- **Correlation Matrix**: Identify relationships between key metrics
+- **Power Distribution**: Analyze power output patterns
 
 ---
 
-## Features  
+## Installation
 
-### Data Visualization  
-
-- **Resting Heart Rate (RHR) Trends** over time.  
-- **Heart Rate vs. Power Output** analysis.  
-- **Cadence vs. Speed Relationship** visualization.  
-- **Peak Power Output Trends** tracking.  
-
-
-### Predictive Analysis  
-- Implements **Linear Regression** to predict future **Avg BPM (Resting Heart Rate)**.  
-- Assesses whether the **RHR trend is improving or declining**.  
-
----
-
-![alt text](Predicted_RHR.png)
-
----
-
-### Installation & Usage
-## Clone the Repository
+1. Clone the repository:
 ```bash
 git clone https://github.com/Jung028/RHR_Analysis.git
-pip install dash pandas plotly
-jupyter lab RHR_Analysis.ipynb
 ```
 
-# Run the Analysis 
+2. Install dependencies:
 ```bash
-python cycling_dashboard.py
+npm install
 ```
 
-## License 
+3. Start the development server:
+```bash
+npm start
+```
+
+The application will be available at `http://localhost:3000`
+
+## Technology Stack
+- **Frontend**: React with Material-UI
+- **Data Visualization**: Plotly.js
+- **State Management**: React Hooks (useState, useEffect)
+- **Data Processing**: JavaScript with custom calculation functions
+
+## License
 This project is licensed under the MIT License.
 
-## Future : 
-1. Create Dashboard 
-2. Create connection auto update. 
-3. Predict more useful : predict overtrainng, tell if next training should be hard/easy, 
-4. Analysis for running and swimming as well
+## Future Enhancements
+1. Real-time data integration
+2. Advanced predictive analytics
+3. Multi-sport support (running, swimming)
+4. Training load optimization
+5. Overtraining detection
+6. Personalized training recommendations
 
 
